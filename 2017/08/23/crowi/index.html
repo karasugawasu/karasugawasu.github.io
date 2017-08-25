@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title> Crowiを導入してみた！ · すうのつぶやき </title>
+    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="すうのつぶやき">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+<meta name="keywords" content="nlvi, Nlvi" />
+
+
+    <meta name="subtitle" content="ブログより気軽につぶやくところです">
+
+
+
+
+    <meta name="keywords" content="Crowi, Nlvi" />
+
+<link rel="stylesheet" href="/style/style.css">
+<script src="/script/jquery.min.js"></script>
+<script>
+    var CONFIG = {
+        title: "すうのつぶやき",
+        author: "Suu Karasugawa",
+        lightbox: true,
+        animate: true
+    }
+</script>
+
+
+
+    <link rel="stylesheet" href="/lightbox/css/lightbox.min.css">
+
+
+
+
+    <link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <div class="progress">
+    <div class="progress-inner"></div>
+</div>
+    <div class="body">
+    <div class="tagcloud-mask"></div>  
+<div class="tagcloud" id="tagcloud">
+    <div class="tagcloud-inner">
+        <a href="/tags/Crowi/" style="font-size: 14px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 14px;">gpdpocket</a> <a href="/tags/info/" style="font-size: 14px;">info</a>
+    </div>
+</div>
+    <header class="header" id="header">
+    <div class="title syuanpi tvIn">
+    <div class="table">
+        <div class="connect">
+            <div class="connect-inner">
+                <span><a href="/">すうのつぶやき</a></span>
+                
+                    <span id="subtitle">ブログより気軽につぶやくところです</span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <nav class="main-nav syuanpi tvIn">
+<div class="table">
+
+    <ul class="menu">
+        
+        <li class="menu-item">
+            <a href="javascript:;" id="search">
+                <span>検索</span>
+                
+                    <span class="menu-item-label">search</span>
+                
+            </a>
+        </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/">
+                    <span>記事</span>
+                    
+                        <span class="menu-item-label">article</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/archives">
+                    <span>アーカイブ</span>
+                    
+                        <span class="menu-item-label">archives</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="javascript:;" id="tags">
+                    <span>タグ</span>
+                    
+                        <span class="menu-item-label">tags</span>
+                    
+                </a>
+            </li>
+        
+        
+        
+            <li class="menu-item">
+                <a href="/2017/08/23/about/">
+                    <span>about</span>
+                    
+                        <span class="menu-item-label">about</span>
+                    
+                </a>
+            </li>
+        
+        
+    </ul>
+
+</div>
+</nav>
+</header>
+<div class="mobile-header">
+    <div class="mobile-header-body">
+        <div class="mobile-header-list">
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/">
+                        <span>記事</span>
+                        
+                            <span class="menu-item-label">article</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/archives">
+                        <span>アーカイブ</span>
+                        
+                            <span class="menu-item-label">archives</span>
+                        
+                    </a>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item inner-cloud">
+                    <div class="mobile-nav-tag">
+                        <a href="javascript:;" id="mobile-tags">
+                            <span>タグ</span>
+                            
+                                <span class="menu-item-label">tags</span>
+                            
+                        </a>
+                    </div>
+                    <div class="mobile-nav-tagcloud">
+                        <div class="mobile-tagcloud-inner">
+                            <a href="/tags/Crowi/" style="font-size: 14px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 14px;">gpdpocket</a> <a href="/tags/info/" style="font-size: 14px;">info</a>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+                <div class="mobile-nav-item">
+                    <a href="/2017/08/23/about/">
+                        <span>about</span>
+                        
+                            <span class="menu-item-label">about</span>
+                        
+                    </a>
+                </div>
+            
+            
+        </div>
+    </div>
+    <div class="mobile-header-nav">
+        <div class="mobile-header-item" id="mobile-left">
+            <div class="header-menu-item">
+                <span class="header-menu-line"></span>
+            </div>
+        </div>
+        <h1 class="mobile-header-title">
+            <a href="/">すうのつぶやき</a>
+        </h1>
+        <div class="mobile-header-item"></div>
+    </div>
+</div>
+
+    <div class="container">
+        <main class="main" id="main">
+            
+    
+    <article class="post">
+        <header class="post-header">
+            <div class="post-time syuanpi riseIn-light back-1">
+                <span>2017年8月23日</span>
+                
+            </div>
+            <h1 class="post-title syuanpi riseIn-light back-2">
+            
+                Crowiを導入してみた！
+            
+            </h1>
+            
+                
+                    <div class="post-tags syuanpi riseIn-light back-3">
+                    
+                        <a href="/tags/Crowi/">Crowi</a>
+                    
+                    </div>
+                
+            
+        </header>
+        <div class="post-content syuanpi riseIn-light back-3">
+            
+                <p>日々なんかしらメモしたくなることが多く、なにかいいメモ帳ないかなぁと思いながらEvernoteを使っていたんですが、<br>ふと、さくらのVPSでCrowiのスタートアップスクリプトの提供を・・という記事を見つけて、TwitterのTLでもCrowiという単語が流れてきたのもあり、<br>いろいろ調べてみたところ、Markdownで気軽に書けるWikiやメモ帳といった感じだったので導入してみました。</p>
+<p>で、さっそくその時のメモ書きです。</p>
+<a id="more"></a>
+<!-- toc -->
+<ul>
+<li><a href="#crowi構築">crowi構築</a><ul>
+<li><a href="#基本的な内容">基本的な内容</a></li>
+<li><a href="#インストール">インストール</a><ul>
+<li><a href="#mongodb">MongoDB</a></li>
+<li><a href="#nodejs">NodeJS</a></li>
+<li><a href="#検索できるようにelasticsearchを入れる">検索できるようにElasticsearchを入れる</a></li>
+<li><a href="#crowiをインストール">Crowiをインストール</a></li>
+<li><a href="#サービスとして登録">サービスとして登録</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<h2><span id="crowi構築">crowi構築</span></h2><h3><span id="基本的な内容">基本的な内容</span></h3><blockquote>
+<p><a href="http://d.hatena.ne.jp/akishin999/20161225/1482682979" target="_blank" rel="external">http://d.hatena.ne.jp/akishin999/20161225/1482682979</a>  </p>
+</blockquote>
+<p>Redisはいれていない</p>
+<h3><span id="インストール">インストール</span></h3><h4><span id="mongodb">MongoDB</span></h4><p>レポジトリ定義作成<br><code>vim /etc/yum.repos.d/mongodb.repo</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[mongodb]</div><div class="line">name=MongoDB repo</div><div class="line">baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/</div><div class="line">gpgcheck=0</div><div class="line">enabled=0</div></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum --enablerepo=mongodb install -y mongodb-org</div></pre></td></tr></table></figure>
+<p>DBとユーザーを作成する<br>Mysqlしか知らなかったのでいろいろ調べた<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">mongo</div><div class="line">use 使いたいDB名</div><div class="line">db.createUser(&#123;user: ユーザ名, pwd: パスワード, roles: [&#123;role: &quot;readWrite&quot;, db: 使いたいDB名&#125;]&#125;)</div></pre></td></tr></table></figure></p>
+<p>MySQLより分かりやすい気がする</p>
+<h4><span id="nodejs">NodeJS</span></h4><p>レポジトリの登録<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -Uvh https://rpm.nodesource.com/pub_4.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm</div></pre></td></tr></table></figure></p>
+<p>インストールしようとしたらエラーが出たので、以下のコマンドを実行で回避<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -ivh https://kojipkgs.fedoraproject.org//packages/http-parser/2.7.1/3.el7/x86_64/http-parser-2.7.1-3.el7.x86_64.rpm https://kojipkgs.fedoraproject.org//packages/http-parser/2.7.1/3.el7/x86_64/http-parser-devel-2.7.1-3.el7.x86_64.rpm &amp;&amp; yum -y install nodejs-devel</div></pre></td></tr></table></figure></p>
+<p>再度インストールと、ついでに依存系も入れる<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo yum install nodejs krb5-devel gcc-c++ git</div></pre></td></tr></table></figure></p>
+<p>(自分の環境だとすでに入っていた)</p>
+<p>　　</p>
+<h4><span id="検索できるようにelasticsearchを入れる">検索できるようにElasticsearchを入れる</span></h4><p>検索を有効にしておきたいので、Elasticsearchを入れておきます</p>
+<p>Javaがいるようなので、入れます（v1.7.0以上じゃないとだめみたいです）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo yum install java-1.8.0</div></pre></td></tr></table></figure></p>
+<p>ElasticsearchをレポジトリからインストールするためGPG-KEYを取得<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch</div></pre></td></tr></table></figure></p>
+<p>定義ファイルを作成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[elasticsearch-2.x]</div><div class="line">name=Elasticsearch repository for 2.x packages</div><div class="line">baseurl=https://packages.elastic.co/elasticsearch/2.x/centos</div><div class="line">gpgcheck=1</div><div class="line">gpgkey=https://packages.elastic.co/GPG-KEY-elasticsearch</div><div class="line">enabled=0</div></pre></td></tr></table></figure></p>
+<p>インストールする<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum --enablerepo=elasticsearch-2.x install -y elasticsearch</div></pre></td></tr></table></figure></p>
+<p>後はいつも通り有効にしておきます</p>
+<p>また、日本語に対応させるためにanalysis-kuromojiを入れます<br>（これがjava 1.7.0じゃないとだめらしい）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/share/elasticsearch/bin/plugin install analysis-kuromoji</div></pre></td></tr></table></figure></p>
+<p>あとは、Elesticsearchを再起動して正常動作を確認します<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -X GET &apos;http://localhost:9200/_nodes/plugins?pretty&apos;</div></pre></td></tr></table></figure></p>
+<h4><span id="crowiをインストール">Crowiをインストール</span></h4><p>インストールするディレクトリを決めておく<br>あとはcloneする<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/crowi/crowi.git</div><div class="line"><span class="built_in">cd</span> crowi</div></pre></td></tr></table></figure></p>
+<p>最新でチェックアウトする、mastodonでgitがわからず意味不明だったが、その時に調べておいてよかった<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout $(git tag | sort -V | tail -n 1)</div></pre></td></tr></table></figure></p>
+<p>インストール<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure></p>
+<p>上記で少し時間がかかったが、終わったらcssとjsをビルドする<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm run build</div></pre></td></tr></table></figure></p>
+<p>opensslでシード値を出すらしい・・・（よくわかっていないｗ）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">openssl rand -base64 128 | head -1</div></pre></td></tr></table></figure></p>
+<p>　　</p>
+<h4><span id="サービスとして登録">サービスとして登録</span></h4><p>serviceの登録は以下の通り<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">[Unit]</div><div class="line"></div><div class="line">Description=Crowi</div><div class="line">After=network.target mongod.service</div><div class="line"></div><div class="line">[Service]</div><div class="line">WorkingDirectory=&#123;配置したフォルダ&#125;</div><div class="line">EnvironmentFile=/etc/systemd/system/crowi.conf</div><div class="line">ExecStart=/usr/bin/node app.js</div><div class="line"></div><div class="line">[Install]</div><div class="line">WantedBy=multi-user.target</div></pre></td></tr></table></figure></p>
+<p>設定も一緒に(ポートは自由に)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">PORT=3500</div><div class="line">NODE_ENV=production</div><div class="line">MONGO_URI=&quot;mongodb://&#123;USER_ID&#125;:&#123;USER_PASSWORD&#125;@localhost/&#123;DB_NAME&#125;&quot;</div><div class="line">ELASTICSEARCH_URI=http://127.0.0.1:9200</div><div class="line">PASSWORD_SEED=&quot;&#123;opensslで出したやつ&#125;&quot;</div><div class="line">FILE_UPLOAD=local</div></pre></td></tr></table></figure></p>
+<p>後は起動して確認後、自動起動にして終わり<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo systemctl start crowi.service</div><div class="line">sudo systemctl enable crowi</div></pre></td></tr></table></figure></p>
+<p>と、以上で導入が完了しました！<br>ElesticSearchを使用するには、設定の検索管理からBuildNowを押さなきゃいけないので注意です！<br>私は気づかずにエラーになってて無駄に時間くった・・・</p>
+
+            
+        
+        </div>
+        
+            
+            
+        
+    </article>
+    
+        
+    <nav class="article-page">
+        
+            <a href="/2017/08/25/gpdpocket/" id="art-left" class="art-right">
+                <span class="next-title">
+                    GPD Pocketの話<i class="iconfont icon-right"></i> 
+                </span>
+            </a>
+        
+        
+            <a href="/2017/08/23/about/" id="art-right" class="art-left">
+                <span class="prev-title"> 
+                    <i class="iconfont icon-left"></i>すうのつぶやきについて
+                </span>
+            </a>
+        
+    </nav>
+
+        
+    
+
+
+        </main>
+        <footer class="footer syuanpi fadeIn" id="footer">
+    <hr>
+    <div class="footer-wrapper">
+        <div class="left">
+            <div class="contact-icon">
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+        </div>
+        <div class="right">
+            <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2017 ~ 2017</span>
+        <span>❤</span>
+        <span>Suu Karasugawa</span>
+    </div>
+    <div class="theme">
+        <span>
+            Powered by
+            <a href="http://hexo.io/" target="_blank">Hexo </a>
+        </span>
+        <span>
+            Theme
+            <a href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
+        </span>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="/script/nlvi.js"></script>
+<script src="/script/search.js"></script>
+
+    <script src="/lightbox/js/lightbox.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    document.body.addEventListener('touchstart', function () {});
+    $('.progress').hide();
+    $('.body').show();
+    Nlvi.tagcloud();
+    Nlvi.mobileHeader();
+    Nlvi.back2top();
+    Nlvi.smoothScroll();
+    Nlvi.onView();
+    Nlvi.showToc();
+    Nlvi.showComments();
+    Nlvi.showReward();
+
+    !CONFIG.animate && Nlvi.offAnimate();
+    CONFIG.lightbox && Nlvi.onPicBox();
+})
+</script>
+    </div>
+    
+        
+    <div class="post-toc">
+        <span class="title">文章目录</span>
+        <div class="toc-inner syuanpi back-1 fallIn-light">
+            <li class="title-link"><a href="javascript:;" class="toTop">Crowiを導入してみた！</a></li>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">crowi構築</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-text">基本的な内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-text">インストール</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-text">MongoDB</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-text">NodeJS</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-text">検索できるようにElasticsearchを入れる</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-text">Crowiをインストール</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-text">サービスとして登録</span></a></li></ol></li></ol></li></ol>
+        </div>
+    </div>
+
+    
+    <div class="backtop syuanpi dead toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+    
+    <div class="search" id="search">
+        <div class="mask" id="mask"></div>
+        <div class="search-wrapper syuanpi">
+            <h1 id="search-header" class="syuanpi">搜索一下？</h1>
+            <div class="input">
+                <input type="text" id="local-search-input" results="0" name="">
+            </div>
+            <div id="local-search-result"></div>
+        </div>
+    </div>
+    <script>
+    var GREETING = {
+        morning: "",
+        noon: "",
+        after: "",
+        night: "",
+        midnight: ""
+    }
+    $(document).ready(function(){
+        Nlvi.search();
+    });
+    </script>
+
+</body>
+</html>
