@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="すうのつぶやき">
 <meta property="og:description" content="GPD PocketにUbuntuを入れ直してちょっとだけ快適になったので、その後にやったカスタマイズをちょっとメモ。といっても大したことはしていないんですがｗ">
 <meta property="og:locale" content="ja">
-<meta property="og:updated_time" content="2017-08-28T15:22:22.181Z">
+<meta property="og:updated_time" content="2017-08-28T17:24:38.891Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GPD Pocketの現状">
 <meta name="twitter:description" content="GPD PocketにUbuntuを入れ直してちょっとだけ快適になったので、その後にやったカスタマイズをちょっとメモ。といっても大したことはしていないんですがｗ">
@@ -65,7 +65,7 @@
                 
                     <a class="main-nav-link" href="/tags">Tags</a>
                 
-                    <a class="main-nav-link" href="/about">About</a>
+                    <a class="main-nav-link" href="/2017/08/23/about/">About</a>
                 
             </nav>
             
@@ -130,7 +130,7 @@
                 
                     <td><a class="main-nav-link" href="/tags">Tags</a></td>
                 
-                    <td><a class="main-nav-link" href="/about">About</a></td>
+                    <td><a class="main-nav-link" href="/2017/08/23/about/">About</a></td>
                 
                 <td>
                     
@@ -237,34 +237,29 @@
         <div class="article-entry" itemprop="articleBody">
         
             
-                <div id="toc" class="toc-article">
-                <strong class="toc-title">カタログ</strong>
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Touchegg"><span class="toc-number">1.</span> <span class="toc-text">Touchegg</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Chromium"><span class="toc-number">2.</span> <span class="toc-text">Chromium</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#キーの設定"><span class="toc-number">3.</span> <span class="toc-text">キーの設定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mikutter"><span class="toc-number">4.</span> <span class="toc-text">Mikutter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Guake-ターミナル"><span class="toc-number">5.</span> <span class="toc-text">Guake (ターミナル)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ruby"><span class="toc-number">6.</span> <span class="toc-text">Ruby</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#パネル"><span class="toc-number">7.</span> <span class="toc-text">パネル</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mstdn"><span class="toc-number">8.</span> <span class="toc-text">mstdn</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo"><span class="toc-number">9.</span> <span class="toc-text">Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Atom"><span class="toc-number">10.</span> <span class="toc-text">Atom</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#不具合について"><span class="toc-number">11.</span> <span class="toc-text">不具合について</span></a></li></ol>
-                </div>
-            
-            <p>GPD PocketにUbuntuを入れ直してちょっとだけ快適になったので、その後にやったカスタマイズをちょっとメモ。<br>といっても大したことはしていないんですがｗ<br><a id="more"></a></p>
-<h3 id="Touchegg"><a href="#Touchegg" class="headerlink" title="Touchegg"></a>Touchegg</h3><p>まずはタッチの環境と思い、Toucheggを導入。<br>ついでにTouchegg-gceをビルドしたんですが、<br>今回はインストールせずにそのままにしておきました。</p>
+            <p>GPD PocketにUbuntuを入れ直してちょっとだけ快適になったので、その後にやったカスタマイズをちょっとメモ。<br>といっても大したことはしていないんですがｗ<br><a id="more"></a><br><!--toc--></p>
+<h3><span id="touchegg">Touchegg</span></h3><p>まずはタッチの環境と思い、Toucheggを導入。<br>ついでにTouchegg-gceをビルドしたんですが、<br>今回はインストールせずにそのままにしておきました。</p>
 <p>設定は初期のやつからスクロールのものを削除。<br>なんか今回はスクロールがちゃんと作動していたのでその関係です。<br>その後ウィンドウの最大化と最小化を指２本に。<br>画面がちっちゃいのでデフォの３本だとちょっと難しかったので。</p>
-<h3 id="Chromium"><a href="#Chromium" class="headerlink" title="Chromium"></a>Chromium</h3><p>前回はChromeを入れたんですが、今回はaptで入れられるChromiumにしました。<br>ただ、ログインキーリングがなんちゃらっていうのが出てきたので、<a href="http://s.jkunblog.com/article/175112460.html" target="_blank" rel="external">ここ</a>を参考に対処。<br>前回やったタッチの設定は今回はしていません。</p>
-<h3 id="キーの設定"><a href="#キーの設定" class="headerlink" title="キーの設定"></a>キーの設定</h3><p>Winキーでメニューを出してほしかったので、キーボードのショートカットから<code>/usr/bin/xfce4-popup-whiskermenu</code>をWinキーに割り当てました。</p>
+<h3><span id="chromium">Chromium</span></h3><p>前回はChromeを入れたんですが、今回はaptで入れられるChromiumにしました。<br>ただ、ログインキーリングがなんちゃらっていうのが出てきたので、<a href="http://s.jkunblog.com/article/175112460.html" target="_blank" rel="external">ここ</a>を参考に対処。<br>前回やったタッチの設定は今回はしていません。</p>
+<h3><span id="キーの設定">キーの設定</span></h3><p>Winキーでメニューを出してほしかったので、キーボードのショートカットから<code>/usr/bin/xfce4-popup-whiskermenu</code>をWinキーに割り当てました。</p>
 <p>文字入力ですが、Mozcのほうがデフォの入力が直接入力になっているので毎回設定し直すのが面倒なのもあり、Ibusの設定の入力メソッドをMozcのみにして、<br>Mozcの設定でIMEオンオフを切り替えるように変えました。</p>
 <p>CapsとかDelete、BS等の変更はしないで、そのままです。</p>
 <p>前回おかしかった記号系はキーボードの選択を間違えていただけだったので正しいのにしたら問題なくなりました。</p>
-<h3 id="Mikutter"><a href="#Mikutter" class="headerlink" title="Mikutter"></a>Mikutter</h3><p>前回もMikutterを入れていたので今回もすかさず導入です。<br>Pluginは以下の通り。</p>
+<h3><span id="mikutter">Mikutter</span></h3><p>前回もMikutterを入れていたので今回もすかさず導入です。<br>Pluginは以下の通り。</p>
 <p>画像のインライン表示<br><a href="https://github.com/moguno/mikutter-subparts-image" target="_blank" rel="external">mikutter-subparts-image</a><br>タブのアイコンサイズ変更<a href="https://github.com/moguno/mikutter-tab-hardpoint" target="_blank" rel="external">mikutter-tab-hardpoint
 </a><br>画像つき投稿を可能にする<a href="https://github.com/moguno/mikutter-uwm-hommage" target="_blank" rel="external">mikutter-uwm-hommage</a></p>
 <p>あとはフォントサイズを１７くらいに変更しています。</p>
-<h3 id="Guake-ターミナル"><a href="#Guake-ターミナル" class="headerlink" title="Guake (ターミナル)"></a>Guake (ターミナル)</h3><p>ターミナルがちょっと使いづらいと思っていたので他のGPD Pocketユーザさんが使っていたGuakeを導入してみました。<br>普通にaptからインストールできます。</p>
+<h3><span id="guake-ターミナル">Guake (ターミナル)</span></h3><p>ターミナルがちょっと使いづらいと思っていたので他のGPD Pocketユーザさんが使っていたGuakeを導入してみました。<br>普通にaptからインストールできます。</p>
 <p>まだ設定等はいじっていません。</p>
-<h3 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h3><p>rbenvをつかって前と同じ感じで入れてます。</p>
-<h3 id="パネル"><a href="#パネル" class="headerlink" title="パネル"></a>パネル</h3><p>パネルも時計が見やすいように変更しています。<br>一番右側におっきめでデジタル時計を配置。<br>あとは最小限に音量、メール、バッテリーの残りパーセンテージと時間、Wi-Fi、Bluetooth、Mozc、Guakeですね。</p>
-<h3 id="mstdn"><a href="#mstdn" class="headerlink" title="mstdn"></a>mstdn</h3><p>Mastodonクライアントをお試しで入れてみました。<br>普通に使いやすいですｗ<br>カスタマイズはしていないですが、LTLをデフォにしておきました。</p>
-<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>前回も書きましたがHexoの環境をこちらでつくりました。<br>というのもGPD Pocketは基本持ち運び用で、すでに存在しているBlogよりは編集するのに通信も使わなそうだから。<br>あとはオフラインで作成しておいて、あとからデプロイできるっていうのもいいですね。</p>
+<h3><span id="ruby">Ruby</span></h3><p>rbenvをつかって前と同じ感じで入れてます。</p>
+<h3><span id="パネル">パネル</span></h3><p>パネルも時計が見やすいように変更しています。<br>一番右側におっきめでデジタル時計を配置。<br>あとは最小限に音量、メール、バッテリーの残りパーセンテージと時間、Wi-Fi、Bluetooth、Mozc、Guakeですね。</p>
+<h3><span id="mstdn">mstdn</span></h3><p>Mastodonクライアントをお試しで入れてみました。<br>普通に使いやすいですｗ<br>カスタマイズはしていないですが、LTLをデフォにしておきました。</p>
+<h3><span id="hexo">Hexo</span></h3><p>前回も書きましたがHexoの環境をこちらでつくりました。<br>というのもGPD Pocketは基本持ち運び用で、すでに存在しているBlogよりは編集するのに通信も使わなそうだから。<br>あとはオフラインで作成しておいて、あとからデプロイできるっていうのもいいですね。</p>
 <p>HexoのPluginについては別の記事でｗ</p>
-<h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><p>テキストエディターはAtomを選びました。<br>もともとWindowsで使っているというのもありますし、<br>Markdownのプレビューを見ながらかけるというのが個人的に利点です。<br>もちろん他の言語でもハイライトしてくれるので重宝できます。</p>
+<h3><span id="atom">Atom</span></h3><p>テキストエディターはAtomを選びました。<br>もともとWindowsで使っているというのもありますし、<br>Markdownのプレビューを見ながらかけるというのが個人的に利点です。<br>もちろん他の言語でもハイライトしてくれるので重宝できます。</p>
 <p>この記事もAtomで書いてます。</p>
 <p>とそんな感じでしょうか。</p>
-<h3 id="不具合について"><a href="#不具合について" class="headerlink" title="不具合について"></a>不具合について</h3><p>不具合も確認しています。<br>まずはBluetoothテザリングは相変わらず無理です。<br>マウスは大丈夫なので完全にだめというわけではないのかもしれないです。</p>
+<h3><span id="不具合について">不具合について</span></h3><p>不具合も確認しています。<br>まずはBluetoothテザリングは相変わらず無理です。<br>マウスは大丈夫なので完全にだめというわけではないのかもしれないです。</p>
 <p>Type-cが認識しないです。<br>ただ、個人的には使うことがないので今のとこ問題なしです。</p>
 <p>”T”キーが柔い。。<br>ちょっとだけ他のキーより柔らかくて、一回キートップが外れてしまいました。</p>
 <p>サスペンドについては自宅で数時間放置する分には問題ありませんでした。<br>ただ、持ち運んでいるときに勝手に復帰していたのでなにか問題がありそうです。</p>
@@ -280,7 +275,7 @@
 
 </div>
 
-    <a data-url="https://karasugawasu.github.io/2017/08/28/gpd-現状/" data-id="cj6wevu1z0003mxrwpyfdvslc" class="article-share-link"><i class="fa fa-share"></i>共有</a>
+    <a data-url="https://karasugawasu.github.io/2017/08/28/gpd-現状/" data-id="cj6wfn12v00023trwcr9kcfvk" class="article-share-link"><i class="fa fa-share"></i>共有</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
