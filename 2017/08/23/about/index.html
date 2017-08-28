@@ -1,371 +1,533 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang=ja>
 <head>
-    <title> すうのつぶやきについて · すうのつぶやき </title>
-    <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="browsermode" content="application">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="すうのつぶやき">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="msapplication-navbutton-color" content="#666666">
-<meta name= "format-detection" content="telephone=no" />
-<meta name="keywords" content="nlvi, Nlvi" />
+    <meta charset="utf-8">
+    
+    <title>すうのつぶやきについて | すうのつぶやき</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="すうのつぶやきではブログ嶽内の里からちょっとはみ出した、ほんとにちょっとしたつぶやきを記載していきます といっても実際の目的はGithub Pagesを利用していい加減Gitに慣れようよｗといった感じだったりします。　　まぁとにかくのんびり書いていくので？よろしくお願いします。">
+<meta name="keywords" content="info">
+<meta property="og:type" content="article">
+<meta property="og:title" content="すうのつぶやきについて">
+<meta property="og:url" content="https://karasugawasu.github.io/2017/08/23/about/index.html">
+<meta property="og:site_name" content="すうのつぶやき">
+<meta property="og:description" content="すうのつぶやきではブログ嶽内の里からちょっとはみ出した、ほんとにちょっとしたつぶやきを記載していきます といっても実際の目的はGithub Pagesを利用していい加減Gitに慣れようよｗといった感じだったりします。　　まぁとにかくのんびり書いていくので？よろしくお願いします。">
+<meta property="og:locale" content="ja">
+<meta property="og:updated_time" content="2017-08-23T05:59:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="すうのつぶやきについて">
+<meta name="twitter:description" content="すうのつぶやきではブログ嶽内の里からちょっとはみ出した、ほんとにちょっとしたつぶやきを記載していきます といっても実際の目的はGithub Pagesを利用していい加減Gitに慣れようよｗといった感じだったりします。　　まぁとにかくのんびり書いていくので？よろしくお願いします。">
+    
 
+    
+        <link rel="alternate" href="/" title="すうのつぶやき" type="application/atom+xml" />
+    
 
-    <meta name="subtitle" content="ブログより気軽につぶやくところです">
+    
 
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
 
+    <link rel="stylesheet" href="/css/style.css">
 
-
-    <meta name="keywords" content="info, Nlvi" />
-
-<link rel="stylesheet" href="/style/style.css">
-<script src="/script/jquery.min.js"></script>
-<script>
-    var CONFIG = {
-        title: "すうのつぶやき",
-        author: "Suu Karasugawa",
-        lightbox: true,
-        animate: true
-    }
-</script>
-
-
-
-    <link rel="stylesheet" href="/lightbox/css/lightbox.min.css">
-
-
-
-
-    <link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
-
-
-
-
-
-
-
-
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
 
 
 </head>
+
 <body>
-    <div class="progress">
-    <div class="progress-inner"></div>
-</div>
-    <div class="body">
-    <div class="tagcloud-mask"></div>  
-<div class="tagcloud" id="tagcloud">
-    <div class="tagcloud-inner">
-        <a href="/tags/Crowi/" style="font-size: 14px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 14px;">gpdpocket</a> <a href="/tags/info/" style="font-size: 14px;">info</a>
-    </div>
-</div>
-    <header class="header" id="header">
-    <div class="title syuanpi tvIn">
-    <div class="table">
-        <div class="connect">
-            <div class="connect-inner">
-                <span><a href="/">すうのつぶやき</a></span>
-                
-                    <span id="subtitle">ブログより気軽につぶやくところです</span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-    <nav class="main-nav syuanpi tvIn">
-<div class="table">
-
-    <ul class="menu">
-        
-        <li class="menu-item">
-            <a href="javascript:;" id="search">
-                <span>検索</span>
-                
-                    <span class="menu-item-label">search</span>
-                
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">すうのつぶやき</span>
             </a>
-        </li>
-        
-        
-        
-            <li class="menu-item">
-                <a href="/">
-                    <span>記事</span>
-                    
-                        <span class="menu-item-label">article</span>
-                    
-                </a>
-            </li>
-        
-        
-        
-            <li class="menu-item">
-                <a href="/archives">
-                    <span>アーカイブ</span>
-                    
-                        <span class="menu-item-label">archives</span>
-                    
-                </a>
-            </li>
-        
-        
-        
-            <li class="menu-item">
-                <a href="javascript:;" id="tags">
-                    <span>タグ</span>
-                    
-                        <span class="menu-item-label">tags</span>
-                    
-                </a>
-            </li>
-        
-        
-        
-            <li class="menu-item">
-                <a href="/2017/08/23/about/">
-                    <span>about</span>
-                    
-                        <span class="menu-item-label">about</span>
-                    
-                </a>
-            </li>
-        
-        
-    </ul>
-
-</div>
-</nav>
-</header>
-<div class="mobile-header">
-    <div class="mobile-header-body">
-        <div class="mobile-header-list">
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
             
-            
-                <div class="mobile-nav-item">
-                    <a href="/">
-                        <span>記事</span>
-                        
-                            <span class="menu-item-label">article</span>
-                        
-                    </a>
-                </div>
-            
-            
-            
-                <div class="mobile-nav-item">
-                    <a href="/archives">
-                        <span>アーカイブ</span>
-                        
-                            <span class="menu-item-label">archives</span>
-                        
-                    </a>
-                </div>
-            
-            
-            
-                <div class="mobile-nav-item inner-cloud">
-                    <div class="mobile-nav-tag">
-                        <a href="javascript:;" id="mobile-tags">
-                            <span>タグ</span>
-                            
-                                <span class="menu-item-label">tags</span>
-                            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
                         </a>
                     </div>
-                    <div class="mobile-nav-tagcloud">
-                        <div class="mobile-tagcloud-inner">
-                            <a href="/tags/Crowi/" style="font-size: 14px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 14px;">gpdpocket</a> <a href="/tags/info/" style="font-size: 14px;">info</a>
-                        </div>
-                    </div>
-                </div>
+                </nav>
             
-            
-            
-                <div class="mobile-nav-item">
-                    <a href="/2017/08/23/about/">
-                        <span>about</span>
-                        
-                            <span class="menu-item-label">about</span>
-                        
-                    </a>
-                </div>
-            
-            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="検索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
         </div>
     </div>
-    <div class="mobile-header-nav">
-        <div class="mobile-header-item" id="mobile-left">
-            <div class="header-menu-item">
-                <span class="header-menu-line"></span>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '投稿',
+            PAGES: 'Pages',
+            CATEGORIES: 'カテゴリ',
+            TAGS: 'タグ',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="検索" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">鴉河 雛 (Karasugawa Suu)</h2>
+            <h3 id="title">ただのゲーマー</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Kanagawa, Japan</span>
+            <a id="follow" target="_blank" href="https://github.com/karasugawasu/">フォローする</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                4
+                <span>投稿</span>
+            </div>
+            <div class="article-info-block">
+                3
+                <span>タグ</span>
             </div>
         </div>
-        <h1 class="mobile-header-title">
-            <a href="/">すうのつぶやき</a>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="/" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://twitter.com/karasu_sue" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-about" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            すうのつぶやきについて
         </h1>
-        <div class="mobile-header-item"></div>
-    </div>
-</div>
-
-    <div class="container">
-        <main class="main" id="main">
-            
     
-    <article class="post">
-        <header class="post-header">
-            <div class="post-time syuanpi riseIn-light back-1">
-                <span>2017年8月23日</span>
+
                 
-            </div>
-            <h1 class="post-title syuanpi riseIn-light back-2">
-            
-                すうのつぶやきについて
-            
-            </h1>
-            
-                
-                    <div class="post-tags syuanpi riseIn-light back-3">
-                    
-                        <a href="/tags/info/">info</a>
-                    
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/08/23/about/">
+            <time datetime="2017-08-22T20:42:46.000Z" itemprop="datePublished">2017-08-23</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/info/">info</a>
+    </div>
+
                     </div>
                 
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
             
-        </header>
-        <div class="post-content syuanpi riseIn-light back-3">
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">カタログ</strong>
+                    
+                </div>
             
-                <p>&#x3059;&#x3046;&#x306E;&#x3064;&#x3076;&#x3084;&#x304D;&#x3067;&#x306F;&#x30D6;&#x30ED;&#x30B0;<a href="https://blog.xn--krsgw--n73t.com/" target="_blank" rel="external">&#x5DBD;&#x5185;&#x306E;&#x91CC;</a>&#x304B;&#x3089;&#x3061;&#x3087;&#x3063;&#x3068;&#x306F;&#x307F;&#x51FA;&#x3057;&#x305F;&#x3001;&#x307B;&#x3093;&#x3068;&#x306B;&#x3061;&#x3087;&#x3063;&#x3068;&#x3057;&#x305F;&#x3064;&#x3076;&#x3084;&#x304D;&#x3092;&#x8A18;&#x8F09;&#x3057;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;</p>
-<p>&#x3068;&#x3044;&#x3063;&#x3066;&#x3082;&#x5B9F;&#x969B;&#x306E;&#x76EE;&#x7684;&#x306F;Github Pages&#x3092;&#x5229;&#x7528;&#x3057;&#x3066;&#x3044;&#x3044;&#x52A0;&#x6E1B;Git&#x306B;&#x6163;&#x308C;&#x3088;&#x3046;&#x3088;&#xFF57;&#x3068;&#x3044;&#x3063;&#x305F;&#x611F;&#x3058;&#x3060;&#x3063;&#x305F;&#x308A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3000;&#x3000;<br>&#x307E;&#x3041;&#x3068;&#x306B;&#x304B;&#x304F;&#x306E;&#x3093;&#x3073;&#x308A;&#x66F8;&#x3044;&#x3066;&#x3044;&#x304F;&#x306E;&#x3067;&#xFF1F;&#x3088;&#x308D;&#x3057;&#x304F;&#x304A;&#x9858;&#x3044;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+            <p>すうのつぶやきではブログ<a href="https://blog.xn--krsgw--n73t.com/" target="_blank" rel="external">嶽内の里</a>からちょっとはみ出した、ほんとにちょっとしたつぶやきを記載していきます</p>
+<p>といっても実際の目的はGithub Pagesを利用していい加減Gitに慣れようよｗといった感じだったりします。　　<br>まぁとにかくのんびり書いていくので？よろしくお願いします。</p>
 
-            
         
         </div>
-        
-            
-            
-        
-    </article>
-    
-        
-    <nav class="article-page">
-        
-            <a href="/2017/08/23/crowi/" id="art-left" class="art-right">
-                <span class="next-title">
-                    Crowiを導入してみた！<i class="iconfont icon-right"></i> 
-                </span>
-            </a>
-        
-        
-    </nav>
-
-        
-    
+        <footer class="article-footer">
+            <div class="share-container">
 
 
-        </main>
-        <footer class="footer syuanpi fadeIn" id="footer">
-    <hr>
-    <div class="footer-wrapper">
-        <div class="left">
-            <div class="contact-icon">
-    
-    
-    
-    
-    
-    
-    
-    
+
 </div>
+
+    <a data-url="https://karasugawasu.github.io/2017/08/23/about/" data-id="cj6wdzg9m0000l8rwcte5qw7t" class="article-share-link"><i class="fa fa-share"></i>共有</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2017/08/23/crowi/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">新しい記事</strong>
+            <div class="article-nav-title">
+                
+                    Crowiを導入してみた！
+                
+            </div>
+        </a>
+    
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">最近の記事</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/08/28/gpd-現状/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/08/28/gpd-現状/" class="title">GPD Pocketの現状</a></p>
+                            <p class="item-date"><time datetime="2017-08-28T11:08:35.000Z" itemprop="datePublished">2017-08-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/08/25/gpdpocket/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/08/25/gpdpocket/" class="title">GPD Pocketの話</a></p>
+                            <p class="item-date"><time datetime="2017-08-25T14:51:14.000Z" itemprop="datePublished">2017-08-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/08/23/crowi/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/08/23/crowi/" class="title">Crowiを導入してみた！</a></p>
+                            <p class="item-date"><time datetime="2017-08-23T12:13:45.000Z" itemprop="datePublished">2017-08-23</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/08/23/about/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/08/23/about/" class="title">すうのつぶやきについて</a></p>
+                            <p class="item-date"><time datetime="2017-08-22T20:42:46.000Z" itemprop="datePublished">2017-08-23</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
         </div>
-        <div class="right">
-            <div class="copyright">
-    <div class="info">
-        <span>&copy;</span>
-        <span>2017 ~ 2017</span>
-        <span>❤</span>
-        <span>Suu Karasugawa</span>
     </div>
-    <div class="theme">
-        <span>
-            Powered by
-            <a href="http://hexo.io/" target="_blank">Hexo </a>
-        </span>
-        <span>
-            Theme
-            <a href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
-        </span>
-    </div>
+
     
-</div>
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">アーカイブ</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8月 2017</a><span class="archive-list-count">4</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">タグ</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Crowi/">Crowi</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gpdpocket/">gpdpocket</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/info/">info</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">タグクラウド</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Crowi/" style="font-size: 10px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 20px;">gpdpocket</a> <a href="/tags/info/" style="font-size: 10px;">info</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">リンク</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://blog.xn--krsgw--n73t.com">HP</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2017 Suu Karasugawa<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
         </div>
     </div>
 </footer>
-    </div>
-    <script src="/script/nlvi.js"></script>
-<script src="/script/search.js"></script>
-
-    <script src="/lightbox/js/lightbox.min.js"></script>
-
-<script>
-$(document).ready(function(){
-    document.body.addEventListener('touchstart', function () {});
-    $('.progress').hide();
-    $('.body').show();
-    Nlvi.tagcloud();
-    Nlvi.mobileHeader();
-    Nlvi.back2top();
-    Nlvi.smoothScroll();
-    Nlvi.onView();
-    Nlvi.showToc();
-    Nlvi.showComments();
-    Nlvi.showReward();
-
-    !CONFIG.animate && Nlvi.offAnimate();
-    CONFIG.lightbox && Nlvi.onPicBox();
-})
-</script>
-    </div>
-    
         
-    <div class="post-toc">
-        <span class="title">文章目录</span>
-        <div class="toc-inner syuanpi back-1 fallIn-light">
-            <li class="title-link"><a href="javascript:;" class="toTop">すうのつぶやきについて</a></li>
-            
-        </div>
-    </div>
+
 
     
-    <div class="backtop syuanpi dead toTop" id="backtop">
-    <i class="iconfont icon-up"></i>
-    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
-</div>
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
     
-    <div class="search" id="search">
-        <div class="mask" id="mask"></div>
-        <div class="search-wrapper syuanpi">
-            <h1 id="search-header" class="syuanpi">搜索一下？</h1>
-            <div class="input">
-                <input type="text" id="local-search-input" results="0" name="">
-            </div>
-            <div id="local-search-result"></div>
-        </div>
-    </div>
-    <script>
-    var GREETING = {
-        morning: "",
-        noon: "",
-        after: "",
-        night: "",
-        midnight: ""
-    }
-    $(document).ready(function(){
-        Nlvi.search();
-    });
-    </script>
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
 
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
 </body>
 </html>
