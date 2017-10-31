@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://karasugawasu.github.io/"/>
-  <updated>2017-08-28T17:24:38.891Z</updated>
+  <updated>2017-10-31T14:30:54.196Z</updated>
   <id>https://karasugawasu.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ちょっと考える</title>
+    <link href="https://karasugawasu.github.io/2017/10/31/171031/"/>
+    <id>https://karasugawasu.github.io/2017/10/31/171031/</id>
+    <published>2017-10-31T13:33:29.000Z</published>
+    <updated>2017-10-31T14:30:54.196Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近ブログをあんまりちゃんと書いていない。<br>と言うか書いていない。  </p>
+<p>大体ブログのネタとか、書こうかなぁとか思ったときって、<br>家にいなかったり手元にPCがなかったりして書くタイミングを逃してしまう。</p>
+<a id="more"></a>
+<p>いい感じのブログ環境って考えるとやっぱりPCなんだろうけど、<br>ちょっとした時間の隙間とかで書こうと思うとスマホしかなかったりしてなかなか書く気にならなかったりｗ  </p>
+<p>HexoがMarkdownなので書きやすいなぁと思っていても環境が限られていたり（GPD Poketで構築）するのでそれもちょっと厳しかったり。</p>
+<p>一番いい！と思ったのはconcrete5の投稿用のアプリを作ってそれのエディタをMarkdownにすること。。。</p>
+<p>でもこれはちょっとやそっとじゃ作れないのでなかなか難しいはなしだったりｗ</p>
+<p>そんな感じで今後もHexoかブログのほうでのんびり記事をかいていきますｗ</p>
+<p>では、また。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近ブログをあんまりちゃんと書いていない。&lt;br&gt;と言うか書いていない。  &lt;/p&gt;
+&lt;p&gt;大体ブログのネタとか、書こうかなぁとか思ったときって、&lt;br&gt;家にいなかったり手元にPCがなかったりして書くタイミングを逃してしまう。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://karasugawasu.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>GPD Pocketの現状</title>
