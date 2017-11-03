@@ -3,16 +3,20 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tags | すうのつぶやき</title>
+    <title>録画サーバを構築し直した | すうのつぶやき</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="https://karasugawasu.github.io/tags/index.html">
+    <meta name="description" content="というわけで、色んな所で色々言っていたけど、録画サーバを構築し直しました。以前の構成はWindows10＋DockerToolBoxとかいうクソみたいな感じだったんですが、録画の変換ツールがWindowsだといい感じのがあってなかなか捨てがたかったんですよね。 ただ、掃除したときにコンセントが抜けちゃって以降なぜかMirakurunが動作しなくなってしまって、入れ直したりとか環境見直したりしても変">
+<meta name="keywords" content="録画サーバ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="録画サーバを構築し直した">
+<meta property="og:url" content="https://karasugawasu.github.io/2017/11/03/rokuga/index.html">
 <meta property="og:site_name" content="すうのつぶやき">
+<meta property="og:description" content="というわけで、色んな所で色々言っていたけど、録画サーバを構築し直しました。以前の構成はWindows10＋DockerToolBoxとかいうクソみたいな感じだったんですが、録画の変換ツールがWindowsだといい感じのがあってなかなか捨てがたかったんですよね。 ただ、掃除したときにコンセントが抜けちゃって以降なぜかMirakurunが動作しなくなってしまって、入れ直したりとか環境見直したりしても変">
 <meta property="og:locale" content="ja">
-<meta property="og:updated_time" content="2017-08-28T17:16:51.768Z">
+<meta property="og:updated_time" content="2017-11-03T08:18:27.925Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tags">
+<meta name="twitter:title" content="録画サーバを構築し直した">
+<meta name="twitter:description" content="というわけで、色んな所で色々言っていたけど、録画サーバを構築し直しました。以前の構成はWindows10＋DockerToolBoxとかいうクソみたいな感じだったんですが、録画の変換ツールがWindowsだといい感じのがあってなかなか捨てがたかったんですよね。 ただ、掃除したときにコンセントが抜けちゃって以降なぜかMirakurunが動作しなくなってしまって、入れ直したりとか環境見直したりしても変">
     
 
     
@@ -195,16 +199,159 @@
 </aside>
 
             
-            <section id="main"><section class="layout-wrap">
-    <div class="layout-title">
-        <span>Tags</span>
-    </div>
-    <div class="layout-wrap-inner tag-cloud">
+            <section id="main"><article id="post-rokuga" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-            <a href="/tags/Crowi/" style="font-size: 14px;">Crowi</a> <a href="/tags/gpdpocket/" style="font-size: 28px;">gpdpocket</a> <a href="/tags/hexo/" style="font-size: 14px;">hexo</a> <a href="/tags/info/" style="font-size: 14px;">info</a> <a href="/tags/録画サーバ/" style="font-size: 14px;">録画サーバ</a>
         
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            録画サーバを構築し直した
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/11/03/rokuga/">
+            <time datetime="2017-11-03T08:01:23.000Z" itemprop="datePublished">2017-11-03</time>
+        </a>
     </div>
-</section></section>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/録画サーバ/">録画サーバ</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>というわけで、色んな所で色々言っていたけど、録画サーバを構築し直しました。<br>以前の構成はWindows10＋DockerToolBoxとかいうクソみたいな感じだったんですが、<br>録画の変換ツールがWindowsだといい感じのがあってなかなか捨てがたかったんですよね。</p>
+<p>ただ、掃除したときにコンセントが抜けちゃって以降なぜかMirakurunが動作しなくなってしまって、<br>入れ直したりとか環境見直したりしても変わらなかったのでUbuntuで構築し直すことにしました。</p>
+<p>構築については以下にまとめてます。<br><a href="https://crowi.precure.fun/user/karasugawa/%E3%82%B5%E3%83%BC%E3%83%90/2017/10/18/%E9%8C%B2%E7%94%BB%E3%82%B5%E3%83%BC%E3%83%90" target="_blank" rel="external">Ubuntu Server 17.04 + Mirakurun + Chinachu で録画サーバ</a>  </p>
+<p>で、構築してからすでに半月以上経過していますが今の所問題なく稼働し続けています。<br>まぁ相変わらずTVKだけうつりがわるいですがこれはもうチューナーのせいでしょう。</p>
+<p>あとは変換。。<br>今の所変換ツールは導入していません。<br>今まで使ってたやつがWindowsオンリーなのでパワーのあるメインPCで変換を行う方法でもいいんですがなんか途中でエラーになるのでそれはまた試して見る感じでw</p>
+<p>てな感じでそこら辺はまた記載します。</p>
+<p>視聴についてですが、リアルタイム視聴とかもできるだけChinachuの画面からじゃなくてKodiとかM2TSの無変換環境で見るように。。。<br>これはPC自体にあんまりパワーがないのと、小型なので熱を溜め込みたくないからだったり。</p>
+<p>ちなみにKodiで見るときは、 <a href="https://github.com/Harekaze/pvr.chinachu" target="_blank" rel="external">ここ</a>のプラグインを使います。<br>Kodiを使わずに見るときはVLCで見るのが一番いいです。<br>VLCは字幕に対応したやつが出てますのでそっちを入れるといいかもです。  </p>
+<blockquote>
+<p><a href="https://github.com/nkoriyama/vlc-aribsub/wiki" target="_blank" rel="external">vlc-aribsub</a></p>
+</blockquote>
+<p>てなわけで今日はこのへんで！<br>では、また。</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://karasugawasu.github.io/2017/11/03/rokuga/" data-id="cj9jmoroy0007a5rwc1ylg81e" class="article-share-link"><i class="fa fa-share"></i>共有</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2017/10/31/171031/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">古い記事</strong>
+            <div class="article-nav-title">ちょっと考える</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+
+
+</section>
             
                 
 <aside id="sidebar">

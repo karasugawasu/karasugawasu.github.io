@@ -3,6 +3,32 @@
   
     
     <entry>
+      <title><![CDATA[録画サーバを構築し直した]]></title>
+      <url>/2017/11/03/rokuga/</url>
+      <content type="html"><![CDATA[<p>というわけで、色んな所で色々言っていたけど、録画サーバを構築し直しました。<br>以前の構成はWindows10＋DockerToolBoxとかいうクソみたいな感じだったんですが、<br>録画の変換ツールがWindowsだといい感じのがあってなかなか捨てがたかったんですよね。</p>
+<p>ただ、掃除したときにコンセントが抜けちゃって以降なぜかMirakurunが動作しなくなってしまって、<br>入れ直したりとか環境見直したりしても変わらなかったのでUbuntuで構築し直すことにしました。</p>
+<p>構築については以下にまとめてます。<br><a href="https://crowi.precure.fun/user/karasugawa/%E3%82%B5%E3%83%BC%E3%83%90/2017/10/18/%E9%8C%B2%E7%94%BB%E3%82%B5%E3%83%BC%E3%83%90" target="_blank" rel="external">Ubuntu Server 17.04 + Mirakurun + Chinachu で録画サーバ</a>  </p>
+<p>で、構築してからすでに半月以上経過していますが今の所問題なく稼働し続けています。<br>まぁ相変わらずTVKだけうつりがわるいですがこれはもうチューナーのせいでしょう。</p>
+<p>あとは変換。。<br>今の所変換ツールは導入していません。<br>今まで使ってたやつがWindowsオンリーなのでパワーのあるメインPCで変換を行う方法でもいいんですがなんか途中でエラーになるのでそれはまた試して見る感じでw</p>
+<p>てな感じでそこら辺はまた記載します。</p>
+<p>視聴についてですが、リアルタイム視聴とかもできるだけChinachuの画面からじゃなくてKodiとかM2TSの無変換環境で見るように。。。<br>これはPC自体にあんまりパワーがないのと、小型なので熱を溜め込みたくないからだったり。</p>
+<p>ちなみにKodiで見るときは、 <a href="https://github.com/Harekaze/pvr.chinachu" target="_blank" rel="external">ここ</a>のプラグインを使います。<br>Kodiを使わずに見るときはVLCで見るのが一番いいです。<br>VLCは字幕に対応したやつが出てますのでそっちを入れるといいかもです。  </p>
+<blockquote>
+<p><a href="https://github.com/nkoriyama/vlc-aribsub/wiki" target="_blank" rel="external">vlc-aribsub</a></p>
+</blockquote>
+<p>てなわけで今日はこのへんで！<br>では、また。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 録画サーバ </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[ちょっと考える]]></title>
       <url>/2017/10/31/171031/</url>
       <content type="html"><![CDATA[<p>最近ブログをあんまりちゃんと書いていない。<br>と言うか書いていない。  </p>
